@@ -14,4 +14,9 @@ public class Peca
         this.cor = cor;
         this.qtdeMovimentos = 0;
     }
+
+    public override string ToString()
+    {
+        return "A";
+    }
 }
